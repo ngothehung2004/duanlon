@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  display: block;
+}
+.project-about {
+  width: 1320px;
+  margin: 0px auto;
+  height: 2212.59px;
+  position: relative;
+  background-color: #fbf8f8;
+}
+.heading {
+  width: 1320px;
+  height: 397px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 23, 43, 0.9);
+  z-index: 1;
+}
+.img {
+  display: block;
+  z-index: 0;
+}
+.select {
+  width: 1320px;
+  height: 62.5px;
+  position: relative;
+  top: 0;
+  z-index: 1000;
+  position: fixed;
+  background: #0f172b;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.restoren {
+  position: absolute;
+  width: 219.11px;
+  height: 48px;
+  top: 7.25px;
+  left: 48px;
+  background-image: url(/img/restoren.png);
+}
+.home {
+  width: 44px;
+  height: 22px;
+  top: 20px;
+  left: 579px;
+  position: absolute;
+}
+.about {
+  width: 50px;
+  height: 22px;
+  top: 20px;
+  left: 655px;
+  position: absolute;
+}
+.service {
+  width: 62px;
+  height: 22px;
+  top: 20px;
+  left: 737px;
+  position: absolute;
+}
+.menu {
+  width: 45px;
+  height: 22px;
+  top: 20px;
+  left: 831px;
+  position: absolute;
+}
+.page {
+  width: 48px;
+  height: 22px;
+  top: 20px;
+  left: 915px;
+  position: absolute;
+}
+.contact {
+  width: 74px;
+  height: 22px;
+  top: 20px;
+  left: 995px;
+  position: absolute;
+}
+a {
+  font-family: Heebo;
+  font-size: 15px;
+  font-weight: 500;
+  color: #f1f8ff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.about a {
+  color: #fea116;
+}
+
+.oder {
+  width: 163.25px;
+  height: 42px;
+  top: 10.25px;
+  left: 1108.75px;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
+  border: 1px solid #fea116;
+  border-radius: 2px;
+  background: #fea116;
+  position: absolute;
+}
+.heading-title {
+  width: 1296px;
+  height: 204.8px;
+  top: 96px;
+  left: 12px;
+  background-image: url(/img/vechungtoi.png);
+  position: absolute;
+  z-index: 1;
+}
+
+.about-us-picture1 {
+  position: absolute;
+  width: 298px;
+  height: 298px;
+  top: 492.8px;
+  left: 24px;
+
+  background-image: url(/img/about-1.jpg.png);
+  background-repeat: no-repeat;
+}
+
+.about-us-picture2 {
+  width: 223.5px;
+  height: 223.5px;
+  top: 567.3px;
+  left: 338px;
+  background-image: url(/img/about-2.jpg.png);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.about-us-picture3 {
+  width: 223.5px;
+  height: 223.5px;
+  top: 806.8px;
+  left: 98.5px;
+
+  background-image: url(/img/about-3.jpg.png);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.about-us-picture4 {
+  width: 298px;
+  height: 298px;
+  top: 806.8px;
+  left: 338px;
+  background-image: url(/img/about-4.jpg.png);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.welcom {
+  width: 660px;
+  height: 419.59px;
+  top: 589px;
+  left: 660px;
+  background-image: url(/img/welcom.png);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.member {
+  width: 1296px;
+  height: 550px;
+  top: 1210px;
+  left: 12px;
+  position: absolute;
+}
+.member-text {
+  width: 300px;
+  height: 60.5px;
+  top: -0.5px;
+  left: 530.38px;
+  background-image: url(/img/thanhvien.png);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.chef {
+  font-family: Nunito;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+  color: black;
+  margin-top: 58px;
+}
+.member-img1 {
+  width: 350px;
+  height: 420px;
+  top: 127.81px;
+  left: 118px;
+  background-image: url(/img/member1.png);
+  position: absolute;
+}
+.member-img2 {
+  width: 350px;
+  height: 420px;
+  top: 128px;
+  left: 498px;
+  background-image: url(/img/member2.png);
+  position: absolute;
+}
+.member-img3 {
+  width: 350px;
+  height: 420px;
+  top: 128px;
+  left: 884px;
+  background-image: url(/img/member3.png);
+  position: absolute;
+}
+
+.footer {
+  width: 1320px;
+  height: 417.8px;
+  top: 1794.8px;
+
+  background: #0f172b;
+  position: absolute;
+}
+.footer-nhahang {
+  width: 330px;
+  height: 200.3px;
+  top: 96px;
+  background-image: url(/img/nhahang.png);
+  position: absolute;
+}
+.footer-lienhe {
+  width: 330px;
+  height: 200.3px;
+  top: 96px;
+  left: 330px;
+  background-image: url(/img/lienhe.png);
+  position: absolute;
+}
+.footer-thoigian {
+  width: 330px;
+  height: 200.3px;
+  top: 96px;
+  left: 660px;
+  background-image: url(/img/thoigian.png);
+  position: absolute;
+}
+.footer-thongtin {
+  width: 330px;
+  height: 200.3px;
+  top: 96px;
+  left: 990px;
+  position: absolute;
+}
+.footer-thongtin-title {
+  width: 150.67px;
+  height: 29.2px;
+  top: -0.4px;
+  left: 24px;
+  background-image: url(/img/thongtintxt.png);
+  position: absolute;
+}
+.footer-thongtin-text {
+  left: 24px;
+  top: 52.79px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #f1f8ff;
+
+  position: absolute;
+}
+.input-thongtin {
+  position: absolute;
+  width: 282px;
+  height: 58px;
+  top: 116.79px;
+  left: 24px;
+}
+.dangki {
+  font-size: 15px;
+  color: #fff;
+  width: 87.34px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  top: 125.79px;
+  left: 200.66px;
+  line-height: 1.5;
+  border-radius: 2px;
+  background: #fea116;
+  border: 1px solid #fea116;
+  position: absolute;
+}
+.dangki:hover {
+  background-color: #f4ac41;
+  cursor: pointer;
+}
