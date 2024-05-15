@@ -18,15 +18,22 @@
             height="397px"
           />
         </div>
-        <div class="select">
+        <div class="select" id="mySelect">
           <div class="restoren"></div>
           <div class="home"><a href="/index.html">home</a></div>
           <div class="about"><a href="/about.html">about</a></div>
           <div class="service"><a href="">service</a></div>
           <div class="menu"><a href="">menu</a></div>
-          <div class="page"><a href="">page</a></div>
+          <div class="page">
+            <a href="">page</a>
+            <div class="dropdown-menu">
+              <a href="" class="dropdown-item">Booking</a>
+              <a href="" class="dropdown-item">Our Team</a>
+              <a href="" class="dropdown-item">Testimonial</a>
+            </div>
+          </div>
           <div class="contact"><a href="">contact</a></div>
-          <div class="oder"><p>ĐẶT BÀN</p></div>
+          <div class="oder"><a href=""></a>ĐẶT BÀN</div>
         </div>
         <div class="heading-title"></div>
       </div>
@@ -37,7 +44,23 @@
         <div class="about-us-picture3"></div>
         <div class="about-us-picture4"></div>
       </div>
-      <div class="welcom"></div>
+      <div class="welcom">
+        <div class="welcom-img"></div>
+        <div class="welcom-title"></div>
+        <div class="welcom-text">
+          Restoran là điểm đến lý tưởng cho những người yêu thích ẩm thực đa
+          dạng và không gian sang trọng. Với một sự kết hợp tinh tế giữa hương
+          vị độc đáo và dịch vụ chuyên nghiệp, chúng tôi cam kết mang đến cho
+          quý khách một trải nghiệm ẩm thực đáng nhớ. <br />
+          Hãy đến và khám phá Restoran ngay hôm nay để thưởng thức những hương
+          vị tuyệt vời và trải nghiệm dịch vụ tốt nhất từ đội ngũ chuyên nghiệp
+          của chúng tôi. Chúng tôi rất mong được chào đón quý khách tại
+          Restoran!
+        </div>
+        <div class="welcom-experience"></div>
+        <div class="welcom-popular"></div>
+        <div class="welcom-read">ĐỌC THÊM</div>
+      </div>
 
       <div class="member">
         <p class="member-text"></p>
@@ -46,9 +69,9 @@
           chúng tôi
         </h1>
         <div class="member-img">
-          <div class="member-img1"></div>
-          <div class="member-img2"></div>
-          <div class="member-img3"></div>
+          <div class="member-container1 member-img1"></div>
+          <div class="member-container1 member-img2"></div>
+          <div class="member-container1 member-img3"></div>
         </div>
       </div>
 
@@ -70,14 +93,21 @@
               class="input-thongtin"
               type="email"
               id="email"
-              placeholder="Emai của bạn"
+              placeholder="Email của bạn"
             />
             <div class="dangki">
-              <p>ĐĂNG <br />KÍ</p>
+              <p>ĐĂNG KÍ</p>
             </div>
           </form>
         </div>
+        <div class="footer-copyright">
+          <div class="footer-copyright-home">Home</div>
+          <div class="footer-copyright-cookie">Cookies</div>
+          <div class="footer-copyright-help">Help</div>
+          <div class="footer-copyright-faqs">FAQs</div>
+        </div>
       </div>
     </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>
